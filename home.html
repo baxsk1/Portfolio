@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <section id="home">
+    <head>
+      <title>Kevin Baxter Portfolio</title>
+      <link rel="stylesheet" href="css/style.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      />
+    </head>
+  </section>
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="#home"> Kevin Baxter</a></div>
+      <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+      <a href="#projects" class="action-btn">Explore Projects</a>
+      <div class="toggle_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="dropdown-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#projects" class="action-btn">Explore Projects</a></li>
+    </div>
+  </header>
+
+  <body>
+    <div class="bento-grid">
+      <div class="profile-image-box">
+        <img class="profile-image" src="./images/Portrait.jpg" />
+      </div>
+      <div class="grid-col-span-2 main-text">
+        <h1 class="main-header-text">Design & Develop...</h1>
+        <h2 class="main-header-desc-text">
+          Hi, I'm a former IT Consultant with over twenty years experience. I am
+          currently working with many aspects of .NET including C#, EF Core,
+          HTML & CSS. Please see below for examples of recent projects...
+        </h2>
+      </div>
+      <div class="project-box">
+        <p class="project-header">Rentals Project</p>
+        <img class="project-image" src="./images/Project1.jpg" />
+        <p class="project-text">
+          Rental Property Portfolie Management Suite & Issue Tracker.
+        </p>
+        <div class="tech-stack-grid">
+          <div class="tech-stack-button">.NET</div>
+          <div class="tech-stack-button">MVC</div>
+          <div class="tech-stack-button">C#</div>
+          <div class="tech-stack-button">EF Core</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+      <div class="project-box">
+        <p class="project-header">Sheep Project</p>
+        <img class="project-image" src="./images/Project2.jpg" />
+        <p class="project-text">
+          Help your child count via the medium of sheep!
+        </p>
+        <div class="tech-stack-grid">
+          <div class="tech-stack-button">.NET</div>
+          <div class="tech-stack-button">BLAZOR</div>
+          <div class="tech-stack-button">C#</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+      <div class="project-box">
+        <p class="project-header">Websites...</p>
+        <img class="project-image" src="./images/Project3.jpg" />
+        <p class="project-text">This Website</p>
+        <div class="tech-stack-grid">
+          <div class="tech-stack-button">HTML</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+      <div class="grid-col-span-2">
+        <img class="display-image" src="./images/Desk.jpg" />
+      </div>
+      <div class="projects-button-box">
+        <a href="#projects">
+          <button class="projects-button">Explore Projects...</button>
+        </a>
+      </div>
+    </div>
+    <section id="testimonials">
+      <br />
+      <p class="headers-text">Testimonials....</p>
+      <div class="testimonials-grid">
+        <div class="testimonial-box">
+          <img class="testimonial-profile-pic" src="./images/tester1.png" />
+          <h3>
+            "Maths no longer keeps me awake at night now that I can count
+            Sheep!"
+          </h3>
+          <h3>Ms C Baxter, Suffolk.</h3>
+        </div>
+        <div class="testimonial-box">
+          <img class="testimonial-profile-pic" src="./images/tester2.jpg" />
+          <h3>"Rentals has transformed the way I manage my portfolio"</h3>
+          <h3>Mrs P Baxter, Suffolk.</h3>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <br />
+      <p class="headers-text">Recent Projects...</p>
+      <div class="project-grid">
+        <div class="rentals-hd-bg">
+          <h1>Rentals</h1>
+        </div>
+        <div class="project-grid-photo-span">
+          <img class="project-image" src="./images/Project1B.jpg" />
+        </div>
+        <div>
+          <p>
+            Rental Portfolio Management System. Provides user with access to
+            useful information such as last gas check date and tenancy start
+            date. It also allows any issues to be loggged against each property.
+            These issues can in turn be viewed on a screen which allows
+            filtering via priority or status.
+          </p>
+        </div>
+        <div class="grid-col-span-2">
+          <p class="fun-fact-text">
+            <i class="fa-solid fa-arrow-right"></i> Fun Fact: Rentals utilises a
+            Generic Repository to interact with EF Core.
+          </p>
+        </div>
+        <div class="project-tech-stack-grid">
+          <div class="tech-stack-button">.NET</div>
+          <div class="tech-stack-button">MVC</div>
+          <div class="tech-stack-button">C#</div>
+          <div class="tech-stack-button">EF Core</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+
+      <div class="project-grid project-grd-alternate-margins">
+        <div class="sheep-hd-bg">
+          <h1>Sheep</h1>
+        </div>
+        <div class="project-grid-photo-span">
+          <img class="project-image" src="./images/Project2.jpg" />
+        </div>
+        <div>
+          <p>
+            Written to help our young daughter with her addition, Sheep is a
+            simple Client Side Blazor Screen which displays two random flocks of
+            sheep and asks for the total number of sheep to be entered.
+          </p>
+        </div>
+        <div class="grid-col-span-2">
+          <p class="fun-fact-text">
+            <i class="fa-solid fa-arrow-right"></i> Fun Fact: Uses transform
+            scale x-1 to rotate the right hand flock
+          </p>
+        </div>
+        <div class="project-tech-stack-grid">
+          <div class="tech-stack-button">.NET</div>
+          <div class="tech-stack-button">BLAZOR</div>
+          <div class="tech-stack-button">C#</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+      <div class="project-grid">
+        <div class="website-hd-bg">
+          <h1>This Website</h1>
+        </div>
+        <div class="project-grid-photo-span">
+          <img class="project-image" src="./images/Project3.jpg" />
+        </div>
+        <div>
+          <p>
+            Written with VS Code and using raw HTML & CSS, (& a little JS), this
+            website utilises CSS Grid to adhere to a subtle bento box design.
+          </p>
+        </div>
+        <div class="grid-col-span-2">
+          <p class="fun-fact-text">
+            <i class="fa-solid fa-arrow-right"></i> Fun Fact: Includes a
+            Responsive Navigation Bar.
+          </p>
+        </div>
+        <div class="project-tech-stack-grid">
+          <div class="tech-stack-button">HTML</div>
+          <div class="tech-stack-button">CSS</div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <footer class="page-footer">
+      <p>
+        <i class="fa-solid fa-pencil"></i> Kevin Baxter 2024
+        <i class="fa-regular fa-thumbs-up"></i>
+      </p>
+    </footer>
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown-menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
+</html>
